@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="BellyButton">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- container around each entry -->
+    <style name="LLContainer">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:weightSum">3</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- descriptor for each line/entry -->
+    <style name="Description">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+     <!--  each line/entry -->
+    <style name="Entry">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:ems">10</item>
+    </style>
+    
+      
+</resources>
